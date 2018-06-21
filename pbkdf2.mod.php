@@ -19,7 +19,7 @@
         public function __construct()
         {
             //require in the PBKDF2 functions source file
-            require_once(dirname(__FILE__) . "/PasswordHash.php");
+            require_once(dirname(__FILE__) . "/thirdparty/PasswordHash.php");
         }
         
         /**
